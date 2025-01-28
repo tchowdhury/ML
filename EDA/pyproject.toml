@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "supv-learning-sklearn"
+name = "eda"
 version = "0.1.0"
 description = ""
 authors = ["Tapajoyti Chowdhury <tchowdhury@tnsiit.com>"]
@@ -7,10 +7,12 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
-pandas = "^2.2.3"
-scikit-learn = "^1.6.1"
+jupyter-summarytools = "^0.2.3"
+sweetviz = "^2.3.1"
 seaborn = "^0.13.2"
-matplotlib = "^3.10.0"
+summarytools = "^0.3.0"
+scipy = "^1.15.2"
+scikit-learn = "^1.6.1"
 
 
 [build-system]
